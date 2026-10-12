@@ -15,15 +15,17 @@ export function App() {
   }
 
   if (page === 'dashboard') {
-    return <Dashboard />;
+    return <Dashboard onSignOut={() => setPage('home')} />;
   }
 
   return (
-    <>
+    <div className="landing">
       <h1>Open Library</h1>
       <p>Please sign in to continue</p>
-      <button onClick={login}>Sign in</button>
-      <button onClick={login}>Create Account</button>
-    </>
+      <div>
+        <button onClick={login}>Sign in</button>
+        <button onClick={login}>Create Account</button>
+      </div>
+    </div>
   );
 }
