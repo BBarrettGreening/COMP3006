@@ -20,7 +20,7 @@ export function App() {
 
   return (
     <div className="landing">
-      <h1>Open Library</h1>
+      <h1>Public Library</h1>
       <p>Please sign in to continue</p>
       <div>
         <button onClick={login}>Sign in</button>

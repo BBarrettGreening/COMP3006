@@ -1,6 +1,6 @@
 # COMP3006 Assessment 2
 
-**Library System** Web Service Application
+**Public Library** Web Service Application
 
 ---
 
